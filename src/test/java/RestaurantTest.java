@@ -24,6 +24,10 @@ class RestaurantTest {
 
     }
 
+    @Test
+    public void to_display_the_order_details(){
+        assertNotNull(restaurant.calcordervalue());
+    }
     //<<<<<<<<<<<<<<<<<<<<<<<<<OPEN/CLOSED>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
