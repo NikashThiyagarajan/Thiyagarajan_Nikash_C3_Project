@@ -2,6 +2,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.time.LocalTime;
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -26,7 +27,7 @@ class RestaurantTest {
 
     @Test
     public void to_display_the_order_details(){
-        assertNotNull(restaurant.calcordervalue());
+        assertNotNull(restaurant.calcordervalue(List<Item> itemList));
     }
     //<<<<<<<<<<<<<<<<<<<<<<<<<OPEN/CLOSED>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
